@@ -155,7 +155,7 @@ nav {
 }
 
 /* RULESET FOR SMALL SCREENS */
-@media only screen and (max-width: 445px) {
+@media only screen and (max-width: 550px) {
 
     #mission-strip {
         height: 16rem;
