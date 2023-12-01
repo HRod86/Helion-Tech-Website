@@ -1,6 +1,6 @@
 /* UNIVERSAL STYLES */
 body {
-    background-image: url(imgs/body_bg.jpeg);
+    background-image: url('imgs/body_bg.jpeg');
     background-position: bottom;
     background-repeat: repeat;
     background-size: contain;
