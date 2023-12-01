@@ -97,7 +97,7 @@ nav {
 
 /* MISSION SECTION */
 #mission-container {
-    background-image: url('imgs/mission_bg.jpeg');
+    background-image: url(imgs/mission_bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
