@@ -166,6 +166,10 @@ nav {
 /* RULESET FOR SMALL SCREENS */
 @media only screen and (max-width: 294px) {
 
+     #mission-strip {
+        height: 14rem;
+    }
+    
     #p-mission{
         display: none;
     }
