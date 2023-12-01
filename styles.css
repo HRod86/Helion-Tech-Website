@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-    font-size: 56px;
+    font-size: 3.5rem;
     /* text shadow com efeito neon */
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px blueviolet;
     color: aliceblue;
@@ -38,7 +38,7 @@ h1 {
 }
 
 span {
-    font-size: 56px;
+    font-size: 3.5rem;
     /* text shadow com efeito neon */
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px blueviolet;
     color: aliceblue;
@@ -49,7 +49,7 @@ span {
 @media only screen and (max-width: 1100px ) {
 
     h1 {
-        font-size: 48px;
+        font-size: 3rem;
         /* text shadow com efeito neon */
         text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px blueviolet;
         color: aliceblue;
@@ -57,7 +57,7 @@ span {
     }
     
     span {
-        font-size: 48px;
+        font-size: 3rem;
         /* text shadow com efeito neon */
         text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px blueviolet;
         color: aliceblue;
@@ -70,14 +70,14 @@ span {
 /* RULESET FOR SMALL SCREENS */
 @media only screen and (max-width: 1005px ) {
     h1 {
-        font-size: 46px;
+        font-size: 2.875rem;
         /* text shadow com efeito neon */
         text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px blueviolet;
         color: aliceblue;
         font-style: italic;
     }
     span {
-        font-size: 46px;
+        font-size: 2.875rem;
         /* text shadow com efeito neon */
         text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px blueviolet;
         color: aliceblue;
@@ -116,7 +116,7 @@ nav {
     display: inline-flex;
     height: 6.25rem;
     width: 6.25rem;
-    margin-left: 10px;
+    margin-left: 0.625rem;
 }
 
 .nav {
@@ -175,15 +175,15 @@ nav {
 .mission-header {
     width: 100%;
     margin-top: 2.5rem;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     color: antiquewhite;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px blueviolet;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 p {
     color: antiquewhite;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 /* TECH SECTION */
@@ -192,7 +192,7 @@ p {
     position: relative;
     width: 100%;
     text-align: center;
-    top: 110px;
+    top: 6.875rem;
     border-bottom: 2px solid seashell;
 }
 
@@ -201,15 +201,15 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    top: 10px;
+    top: .625rem;
     position: relative;
     justify-content: center; 
 }
 
 .tech-img {
     margin-top: 0;
-    margin-bottom: 25px;
-    margin-right: 25px;
+    margin-bottom: 1.563rem;
+    margin-right: 1.563rem;
 }
 
 .tech-img img {
@@ -230,15 +230,15 @@ p {
 .tech-header {
     width: 100%;
     margin-top: 2.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     color: antiquewhite;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px blueviolet;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 figcaption {
     text-align: left;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: aliceblue;
 }
 
@@ -249,7 +249,7 @@ figcaption {
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    top: 100px;
+    top: 6.25rem;
     justify-content: center;
     border-bottom: 1px solid seashell;
 }
@@ -257,29 +257,28 @@ figcaption {
 .team-header {
     width: 100%;
     position: relative;
-    top: 140px;
-    margin-top: 35px;
-    margin-bottom: 10px;
+    top: 8.75rem;
+    margin-top: 2.188rem;
+    margin-bottom: 0.625rem;
     color: antiquewhite;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px blueviolet;
-    font-size: 32px;
+    font-size: 2rem;
     text-align: center;
 }
 
 .member {
-    margin-bottom: 20px;
-    margin-top: 50px;
+    margin-bottom: 1.25rem;
+    margin-top: 3.125rem;
     display: flex;
     flex-direction: column;
-    height: 300px;
-    width: 250px;
+    height: 18.75rem;
+    width: 15.625rem;
     align-items:end;
     justify-content:end;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 .CEO {
-    width: 200px;
     background-image: url(imgs/helion-musk.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,8 +309,8 @@ figcaption {
     color: antiquewhite;
     opacity: .9;
     width: 100%;
-    height: 40px;
-    padding-right:  10px;
+    height: 2.5rem;
+    padding-right: 0.625rem;
     justify-content: flex-end;
     align-items: center;
 }
@@ -319,7 +318,7 @@ figcaption {
 .p-team{
     background-color: black;
     text-align: right;
-    padding-right:  10px;
+    padding-right:  0.625rem;
     color: antiquewhite;
     opacity: .9;
     width: 100%;
@@ -329,9 +328,9 @@ figcaption {
 #contactus {
     display: flex;
     position: relative;
-    top: 100px;
-    width: 250px;
-    left: 30px;
+    top: 6.25rem;
+    width: 15.625rem;
+    left: 1.875rem;
     height: min-content;
     text-align: left;
     font-style: italic;
@@ -344,14 +343,14 @@ margin-top: 2rem;
 /* margin-bottom: 10px; */
 color: antiquewhite;
 text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px blueviolet;
-font-size: 26px;
+font-size: 1.625rem;
 }
 
 #contact-details {
 display: block;
 position: relative;
-margin-top: 120px;
-margin-bottom: 20px;
+margin-top: 7.5rem;
+margin-bottom: 1.25rem;
 width: 100%;
 height: fit-content;
 text-align: right;
@@ -359,11 +358,11 @@ text-align: right;
 
 #details-1 {
 font-style: italic;
-margin-right: 20px;
+margin-right: 1.25rem;
 }
 
 #details {
-margin-right: 20px;
+margin-right: 1.25rem;
 }
 
 /* FOOTER SECTION */
@@ -373,14 +372,14 @@ margin-right: 20px;
     align-items: end;
     background-color:rgb(41, 41, 41);
     width: 100%;
-    height: 60px;
+    height: 3.75rem;
 }
 
 #p-footer {
     font-size: 1rem;
     font-style: italic;
-    margin-right: 20px;
-    margin-bottom: 10px;
+    margin-right: 1.25rem;
+    margin-bottom: 0.625rem;
 }
 
 /* RULESET FOR SMALL SCREENS */
